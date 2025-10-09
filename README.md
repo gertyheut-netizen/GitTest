@@ -15,7 +15,7 @@ python init_db.py
 Клонируйте репозиторий: https://github.com/gertyheut-netizen/GitTest.git
 
 Запустите приложение:
-python  Main.py
+Main.py
 
 Перейдите в браузере:
 http://127.0.0.1:5000
