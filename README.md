@@ -23,7 +23,7 @@ python  Main.py
 http://127.0.0.1:5000
 
 # Архитектура проекта:
-Main.py Основное приложение Flask ├database.db База данных SQLite ├proba.py Проба ├static Статические файлы │main.css #Базовый ксс файл для стиля всех страниц │templates/ HTML шаблоны ├about.html Страница "О нас" ├index.html Главная ├contacts.html Контакты ├index1.html Карточка товара├order.html Оформление заказа ├product.html Карточка товара 
+Main.py - Основное приложение Flask ├database.db - База данных SQLite ├proba.py - Проба ├static - Статические файлы │main.css - Базовый ксс файл для стиля всех страниц │templates - HTML шаблоны ├about.html - Страница "О нас" ├index.html - Главная ├contacts.html  - Контакты ├index1.html - Карточка товара├order.html - Оформление заказа ├product.html - Карточка товара 
 
 # Функционал
 
