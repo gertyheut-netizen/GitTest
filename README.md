@@ -12,12 +12,8 @@ python init_db.py
 # Установка и запуск
 Клонируйте репозиторий: https://github.com/gertyheut-netizen/GitTest.git
 
-
-Установите зависимости:
-pip install flask
-
 Запустите приложение:
-python app.py
+python  Main.py
 
 Перейдите в браузере:
-http://127.0.0.1:5000 ``
+http://127.0.0.1:5000
