@@ -36,11 +36,11 @@ Main.py - Основное приложение Flask |database.db - База д
 Страница истории бренда
 
 # Технологии
-Python
-Flask 
-Jinja2 
-HTML
-CSS
+Python,
+Flask, 
+Jinja2, 
+HTML,
+CSS,
 SQLite
 
 # Лицензия проекта
