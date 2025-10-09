@@ -10,8 +10,8 @@ pip install flask
 python init_db.py
 
 # Установка и запуск
-Клонируйте репозиторий: 
-git clone https:
+Клонируйте репозиторий: https://github.com/gertyheut-netizen/GitTest.git
+
 
 Установите зависимости:
 pip install flask
