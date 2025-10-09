@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <nav>
+        <ul>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+        nav {
+            background-color: #d8daee;
+            padding: 15px 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgb(148, 147, 197);
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-link {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .nav-link:hover {
+            background-color: #888fb8;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="nav-link">Главная</a>
+            <a href="/catalog" class="nav-link">Каталог</a>
+            <a href="/contacts" class="nav-link">Контакты</a>
+            <a href="/about" class="nav-link">О нас</a>
+        </div>
+    </nav>
+    <div style="padding: 20px;">
+      <h1>КАТАЛОГ</h1>
+    <title>Каталог</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+    <html> 
+  <head> 
+    <meta  http-equiv="Content-Type" content="text/html;  charset=iso-8859-1"> 
+
+<div class="container">
+    <label for="uname"><b>Поиск</b></label>
+    <input type="text" name="uname" required>
+    <button type="submit">Искать</button>
+  </div>
+</head>
+<body>
+</body>
+</html>
+{% extends 'base.html' %}
+    <!-- djlnfkldnflkdnfldnfjldnflflj-->
+
+{% block title %}{% endblock%}
+
+{% block content %}
+
+    {% for i in tovar %}
+        <p>Название: {{i[1]}}</p>
+        <p>Описание: {{i[2]}}</p>
+        <p>Цена: {{i[3]}}</p>
+        <a href="/add/{{i[0]}}">Оформить заказ</a>
+        <br>
+    {% endfor %}
+{% endblock%}
