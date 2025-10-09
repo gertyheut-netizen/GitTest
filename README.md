@@ -11,7 +11,7 @@ pip install flask
 
 python init_db.py
 
-# Установка и запуск
+# Быстрый запуск
 Клонируйте репозиторий: https://github.com/gertyheut-netizen/GitTest.git
 
 Запустите приложение:
